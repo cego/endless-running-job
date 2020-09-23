@@ -1,0 +1,26 @@
+{
+    "name": "nbj/endless-running-job",
+    "description": "Utility to facilitate endless running jobs",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Nikolaj Boel Jensen",
+            "email": "nbj@creationsftw.com"
+        }
+    ],
+    "require": {
+        "nbj/stopwatch": "^0.0.5"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nbj\\": "src/"
+        }
+    },
+    "autoload-dev": {}
+}
