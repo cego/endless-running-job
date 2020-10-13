@@ -1,5 +1,5 @@
 {
-    "name": "nbj/endless-running-job",
+    "name": "cego/endless-running-job",
     "description": "Utility to facilitate endless running jobs",
     "type": "library",
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nbj\\": "src/"
+            "Cego\\": "src/"
         }
     },
     "autoload-dev": {}
